@@ -1,4 +1,4 @@
-# Get Started
+# Contribute
 
 This is a normal page, which contains VuePress basics.
 
@@ -46,15 +46,15 @@ You can [add extra style][style] with `.vuepress/styles/index.scss` file.
 [style]: https://vuejs.press/reference/default-theme/styles.html#style-file
 
 ## Code Block Highlighting
+
 ```ts title=".vuepress/config.ts"
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
   title: 'Hello, VuePress',
-
   theme: defaultTheme({
     logo: 'https://vuejs.org/images/logo.png',
   }),
-})
+});
 ```
