@@ -1,4 +1,4 @@
-# Get Started
+# Contribute
 
 This is a normal page, which contains VuePress basics.
 
@@ -52,7 +52,6 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   title: 'Hello, VuePress',
-
   theme: defaultTheme({
     logo: 'https://vuejs.org/images/logo.png',
   }),
