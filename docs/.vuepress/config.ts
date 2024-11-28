@@ -15,12 +15,6 @@ export default defineUserConfig({
 
     sidebar: {
       '/': 'heading',
-      '/ap/': [
-        {
-          text: 'Apprentice Program',
-          children: ['/ap/getting-started.md', '/ap/todo-app.md'],
-        },
-      ],
       '/legacy/': [
         {
           text: 'Legacy - AP',
