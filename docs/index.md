@@ -3,9 +3,12 @@ home: true
 title: Home
 heroImage: https://vuejs.press/images/hero.png
 actions:
+  - text: Get-Started
+    link: /ap/index.html
+    type: primary
   - text: Get-Started - Legacy
     link: /legacy/roadmap.html
-    type: primary
+    type: secondary
   - text: Contribute
     link: /contribute.html
     type: secondary

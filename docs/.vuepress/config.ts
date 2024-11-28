@@ -11,10 +11,21 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
-    navbar: ['/', { text: 'Legacy', link: '/legacy/roadmap' }, '/contribute'],
+    navbar: [
+      '/',
+      { text: 'AP', link: '/ap/index' },
+      { text: 'Legacy', link: '/legacy/roadmap' },
+      '/contribute',
+    ],
 
     sidebar: {
       '/': 'heading',
+      '/ap/': [
+        {
+          text: 'AP',
+          children: [],
+        },
+      ],
       '/legacy/': [
         {
           text: 'Legacy - AP',
