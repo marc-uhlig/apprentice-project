@@ -46,6 +46,7 @@ export default defineUserConfig({
                   children: [
                     '/legacy/modules/katas/java-8-streams.md',
                     '/legacy/modules/katas/mars-rover.md',
+                    '/legacy/modules/katas/tennis.md',
                   ],
                 },
                 {
