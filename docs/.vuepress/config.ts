@@ -42,6 +42,7 @@ export default defineUserConfig({
                 },
                 {
                   text: 'Katas',
+                  link: '/legacy/modules/katas/index.md',
                   children: [
                     '/legacy/modules/katas/java-8-streams.md',
                     '/legacy/modules/katas/mars-rover.md',
