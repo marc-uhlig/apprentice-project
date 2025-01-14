@@ -30,6 +30,7 @@ export default defineUserConfig({
         {
           text: 'Legacy - AP',
           children: [
+            '/legacy/prerequisites.md',
             '/legacy/roadmap.md',
             '/legacy/objectives.md',
             {
