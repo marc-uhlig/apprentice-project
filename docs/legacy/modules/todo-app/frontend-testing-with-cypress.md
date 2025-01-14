@@ -22,7 +22,7 @@ add[ Cypress](https://www.cypress.io/). Cypress is testing tool for Component an
 
 ## Acceptance Criteria
 
-- #AC1: Test exists which valides creation, editing and deletion of task
+- #AC1: Test exists which validates creation, editing and deletion of task
 
 - #AC2: NPM run script exists to execute cypress in headless mode from console
 
